@@ -14,8 +14,7 @@ lines = data.split("\n")
 key_value_ini = dict()
 
 for line in lines:
-    if "=" in line:
-        fields = line.split("=")
+    
     for char in line:
         # counter for if character is lowercase
         if char.islower():
